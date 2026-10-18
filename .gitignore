@@ -1,0 +1,5 @@
+node_modules/
+.DS_Store
+koindx-gt-adapter/data/
+backfill-progress.json
+*.env

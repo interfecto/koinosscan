@@ -1,0 +1,340 @@
+{
+ "0x1220455a79aaa33d336eb4b83c6479a81496729e8ff0fedc67cf2b6e58a56f2de6f0": [
+  {
+   "sequence": 3,
+   "source": "19GYjDBVXU7keLbYvMLazsGQn3GTWHjHkK",
+   "name": "token.approve_event",
+   "data": {
+    "owner": "1N55NkbDiovpuZobzVa7ww6CtaWSjfdM8T",
+    "spender": "17e1q6Fh5RgnuA8K7v4KvXXH4k9qHgsT5s",
+    "value": "621079605"
+   },
+   "impacted": [
+    "1N55NkbDiovpuZobzVa7ww6CtaWSjfdM8T",
+    "17e1q6Fh5RgnuA8K7v4KvXXH4k9qHgsT5s"
+   ]
+  },
+  {
+   "sequence": 4,
+   "source": "1N8iYrYEJdCVK1rhbqv3qZUzHcpoeKmFnj",
+   "name": "token.approve_event",
+   "data": {
+    "owner": "1N55NkbDiovpuZobzVa7ww6CtaWSjfdM8T",
+    "spender": "17e1q6Fh5RgnuA8K7v4KvXXH4k9qHgsT5s",
+    "value": "2355078"
+   },
+   "impacted": [
+    "17e1q6Fh5RgnuA8K7v4KvXXH4k9qHgsT5s",
+    "1N55NkbDiovpuZobzVa7ww6CtaWSjfdM8T"
+   ]
+  },
+  {
+   "sequence": 5,
+   "source": "19GYjDBVXU7keLbYvMLazsGQn3GTWHjHkK",
+   "name": "token.transfer_event",
+   "data": {
+    "from": "1N55NkbDiovpuZobzVa7ww6CtaWSjfdM8T",
+    "to": "1PWto4ZxqG9HMiBLzesRUiBULuzosKexsg",
+    "value": "621079605"
+   },
+   "impacted": [
+    "1PWto4ZxqG9HMiBLzesRUiBULuzosKexsg",
+    "1N55NkbDiovpuZobzVa7ww6CtaWSjfdM8T"
+   ]
+  },
+  {
+   "sequence": 6,
+   "source": "1Tf1QKv3gVYLjq34yURSHw5ErTYbFjqTG",
+   "name": "token.transfer_event",
+   "data": {
+    "from": "1PWto4ZxqG9HMiBLzesRUiBULuzosKexsg",
+    "to": "1N98ZeKeobFiNv14jepqntB8ZZi8kpFPo4",
+    "value": "3840"
+   },
+   "impacted": [
+    "1N98ZeKeobFiNv14jepqntB8ZZi8kpFPo4",
+    "1PWto4ZxqG9HMiBLzesRUiBULuzosKexsg"
+   ]
+  },
+  {
+   "sequence": 7,
+   "source": "1PWto4ZxqG9HMiBLzesRUiBULuzosKexsg",
+   "name": "core.sync_event",
+   "data": {
+    "reserve_a": "4102928030810",
+    "reserve_b": "25427239"
+   },
+   "impacted": [
+    "1PWto4ZxqG9HMiBLzesRUiBULuzosKexsg"
+   ]
+  },
+  {
+   "sequence": 8,
+   "source": "1PWto4ZxqG9HMiBLzesRUiBULuzosKexsg",
+   "name": "core.swap_event",
+   "data": {
+    "to": "1N98ZeKeobFiNv14jepqntB8ZZi8kpFPo4",
+    "sender": "17e1q6Fh5RgnuA8K7v4KvXXH4k9qHgsT5s",
+    "amount_in_a": "621079605",
+    "amount_out_b": "3840"
+   },
+   "impacted": [
+    "1N98ZeKeobFiNv14jepqntB8ZZi8kpFPo4"
+   ]
+  },
+  {
+   "sequence": 9,
+   "source": "18KGbsusLPrpj6x3VWwoeSxpMe1dudqBbC",
+   "name": "token.transfer_event",
+   "data": {
+    "from": "1N98ZeKeobFiNv14jepqntB8ZZi8kpFPo4",
+    "to": "1CgMX7bQ1mJcrtWGmdewgcJd84q1r3EWJb",
+    "value": "13011094"
+   },
+   "impacted": [
+    "1CgMX7bQ1mJcrtWGmdewgcJd84q1r3EWJb",
+    "1N98ZeKeobFiNv14jepqntB8ZZi8kpFPo4"
+   ]
+  },
+  {
+   "sequence": 10,
+   "source": "1N98ZeKeobFiNv14jepqntB8ZZi8kpFPo4",
+   "name": "core.sync_event",
+   "data": {
+    "reserve_a": "167733",
+    "reserve_b": "556711404"
+   },
+   "impacted": [
+    "1N98ZeKeobFiNv14jepqntB8ZZi8kpFPo4"
+   ]
+  },
+  {
+   "sequence": 11,
+   "source": "1N98ZeKeobFiNv14jepqntB8ZZi8kpFPo4",
+   "name": "core.swap_event",
+   "data": {
+    "to": "1CgMX7bQ1mJcrtWGmdewgcJd84q1r3EWJb",
+    "sender": "17e1q6Fh5RgnuA8K7v4KvXXH4k9qHgsT5s",
+    "amount_in_a": "3840",
+    "amount_out_b": "13011094"
+   },
+   "impacted": [
+    "1CgMX7bQ1mJcrtWGmdewgcJd84q1r3EWJb"
+   ]
+  },
+  {
+   "sequence": 12,
+   "source": "1Nqdt2H1f33JhkJAShiBvCxqecvdgHoCRa",
+   "name": "token.transfer_event",
+   "data": {
+    "from": "1CgMX7bQ1mJcrtWGmdewgcJd84q1r3EWJb",
+    "to": "17TCL31ofYoFXPkuMFY7CLd4V1XUKPYTRp",
+    "value": "486608794365"
+   },
+   "impacted": [
+    "17TCL31ofYoFXPkuMFY7CLd4V1XUKPYTRp",
+    "1CgMX7bQ1mJcrtWGmdewgcJd84q1r3EWJb"
+   ]
+  },
+  {
+   "sequence": 13,
+   "source": "1CgMX7bQ1mJcrtWGmdewgcJd84q1r3EWJb",
+   "name": "core.sync_event",
+   "data": {
+    "reserve_a": "84736062931838",
+    "reserve_b": "2273045480"
+   },
+   "impacted": [
+    "1CgMX7bQ1mJcrtWGmdewgcJd84q1r3EWJb"
+   ]
+  },
+  {
+   "sequence": 14,
+   "source": "1CgMX7bQ1mJcrtWGmdewgcJd84q1r3EWJb",
+   "name": "core.swap_event",
+   "data": {
+    "to": "17TCL31ofYoFXPkuMFY7CLd4V1XUKPYTRp",
+    "sender": "17e1q6Fh5RgnuA8K7v4KvXXH4k9qHgsT5s",
+    "amount_in_b": "13011094",
+    "amount_out_a": "486608794365"
+   },
+   "impacted": [
+    "17TCL31ofYoFXPkuMFY7CLd4V1XUKPYTRp"
+   ]
+  },
+  {
+   "sequence": 15,
+   "source": "19GYjDBVXU7keLbYvMLazsGQn3GTWHjHkK",
+   "name": "token.transfer_event",
+   "data": {
+    "from": "17TCL31ofYoFXPkuMFY7CLd4V1XUKPYTRp",
+    "to": "1N55NkbDiovpuZobzVa7ww6CtaWSjfdM8T",
+    "value": "643730618"
+   },
+   "impacted": [
+    "1N55NkbDiovpuZobzVa7ww6CtaWSjfdM8T",
+    "17TCL31ofYoFXPkuMFY7CLd4V1XUKPYTRp"
+   ]
+  },
+  {
+   "sequence": 16,
+   "source": "17TCL31ofYoFXPkuMFY7CLd4V1XUKPYTRp",
+   "name": "core.sync_event",
+   "data": {
+    "reserve_a": "93509109403",
+    "reserve_b": "70995293283957"
+   },
+   "impacted": [
+    "17TCL31ofYoFXPkuMFY7CLd4V1XUKPYTRp"
+   ]
+  },
+  {
+   "sequence": 17,
+   "source": "17TCL31ofYoFXPkuMFY7CLd4V1XUKPYTRp",
+   "name": "core.swap_event",
+   "data": {
+    "to": "1N55NkbDiovpuZobzVa7ww6CtaWSjfdM8T",
+    "sender": "17e1q6Fh5RgnuA8K7v4KvXXH4k9qHgsT5s",
+    "amount_in_b": "486608794365",
+    "amount_out_a": "643730618"
+   },
+   "impacted": [
+    "1N55NkbDiovpuZobzVa7ww6CtaWSjfdM8T"
+   ]
+  },
+  {
+   "sequence": 18,
+   "source": "1N8iYrYEJdCVK1rhbqv3qZUzHcpoeKmFnj",
+   "name": "token.transfer_event",
+   "data": {
+    "from": "1N55NkbDiovpuZobzVa7ww6CtaWSjfdM8T",
+    "to": "19ygpmxRiM9zU7yiVc9wnbtHEK4Aa6s2gL",
+    "value": "2355078"
+   },
+   "impacted": [
+    "19ygpmxRiM9zU7yiVc9wnbtHEK4Aa6s2gL",
+    "1N55NkbDiovpuZobzVa7ww6CtaWSjfdM8T"
+   ]
+  },
+  {
+   "sequence": 19,
+   "source": "19GYjDBVXU7keLbYvMLazsGQn3GTWHjHkK",
+   "name": "token.transfer_event",
+   "data": {
+    "from": "19ygpmxRiM9zU7yiVc9wnbtHEK4Aa6s2gL",
+    "to": "1E8AjPZxKLJGFouXtNNkPcYxAgsTh4AUTN",
+    "value": "131064631"
+   },
+   "impacted": [
+    "1E8AjPZxKLJGFouXtNNkPcYxAgsTh4AUTN",
+    "19ygpmxRiM9zU7yiVc9wnbtHEK4Aa6s2gL"
+   ]
+  },
+  {
+   "sequence": 20,
+   "source": "19ygpmxRiM9zU7yiVc9wnbtHEK4Aa6s2gL",
+   "name": "core.sync_event",
+   "data": {
+    "reserve_a": "612667175126",
+    "reserve_b": "10983744697"
+   },
+   "impacted": [
+    "19ygpmxRiM9zU7yiVc9wnbtHEK4Aa6s2gL"
+   ]
+  },
+  {
+   "sequence": 21,
+   "source": "19ygpmxRiM9zU7yiVc9wnbtHEK4Aa6s2gL",
+   "name": "core.swap_event",
+   "data": {
+    "to": "1E8AjPZxKLJGFouXtNNkPcYxAgsTh4AUTN",
+    "sender": "17e1q6Fh5RgnuA8K7v4KvXXH4k9qHgsT5s",
+    "amount_in_b": "2355078",
+    "amount_out_a": "131064631"
+   },
+   "impacted": [
+    "1E8AjPZxKLJGFouXtNNkPcYxAgsTh4AUTN"
+   ]
+  },
+  {
+   "sequence": 22,
+   "source": "12VoHz41a4HtfiyhTWbg9RXqGMRbYk6pXh",
+   "name": "token.transfer_event",
+   "data": {
+    "from": "1E8AjPZxKLJGFouXtNNkPcYxAgsTh4AUTN",
+    "to": "1PdbUNgKRZBzqGVco92RAKDJWXbWqjwA2Z",
+    "value": "2192609"
+   },
+   "impacted": [
+    "1PdbUNgKRZBzqGVco92RAKDJWXbWqjwA2Z",
+    "1E8AjPZxKLJGFouXtNNkPcYxAgsTh4AUTN"
+   ]
+  },
+  {
+   "sequence": 23,
+   "source": "1E8AjPZxKLJGFouXtNNkPcYxAgsTh4AUTN",
+   "name": "core.sync_event",
+   "data": {
+    "reserve_a": "14808621845469",
+    "reserve_b": "248355383635"
+   },
+   "impacted": [
+    "1E8AjPZxKLJGFouXtNNkPcYxAgsTh4AUTN"
+   ]
+  },
+  {
+   "sequence": 24,
+   "source": "1E8AjPZxKLJGFouXtNNkPcYxAgsTh4AUTN",
+   "name": "core.swap_event",
+   "data": {
+    "to": "1PdbUNgKRZBzqGVco92RAKDJWXbWqjwA2Z",
+    "sender": "17e1q6Fh5RgnuA8K7v4KvXXH4k9qHgsT5s",
+    "amount_in_a": "131064631",
+    "amount_out_b": "2192609"
+   },
+   "impacted": [
+    "1PdbUNgKRZBzqGVco92RAKDJWXbWqjwA2Z"
+   ]
+  },
+  {
+   "sequence": 25,
+   "source": "1N8iYrYEJdCVK1rhbqv3qZUzHcpoeKmFnj",
+   "name": "token.transfer_event",
+   "data": {
+    "from": "1PdbUNgKRZBzqGVco92RAKDJWXbWqjwA2Z",
+    "to": "1N55NkbDiovpuZobzVa7ww6CtaWSjfdM8T",
+    "value": "2496842"
+   },
+   "impacted": [
+    "1N55NkbDiovpuZobzVa7ww6CtaWSjfdM8T",
+    "1PdbUNgKRZBzqGVco92RAKDJWXbWqjwA2Z"
+   ]
+  },
+  {
+   "sequence": 26,
+   "source": "1PdbUNgKRZBzqGVco92RAKDJWXbWqjwA2Z",
+   "name": "core.sync_event",
+   "data": {
+    "reserve_a": "41790886",
+    "reserve_b": "38799649"
+   },
+   "impacted": [
+    "1PdbUNgKRZBzqGVco92RAKDJWXbWqjwA2Z"
+   ]
+  },
+  {
+   "sequence": 27,
+   "source": "1PdbUNgKRZBzqGVco92RAKDJWXbWqjwA2Z",
+   "name": "core.swap_event",
+   "data": {
+    "to": "1N55NkbDiovpuZobzVa7ww6CtaWSjfdM8T",
+    "sender": "17e1q6Fh5RgnuA8K7v4KvXXH4k9qHgsT5s",
+    "amount_in_b": "2192609",
+    "amount_out_a": "2496842"
+   },
+   "impacted": [
+    "1N55NkbDiovpuZobzVa7ww6CtaWSjfdM8T"
+   ]
+  }
+ ]
+}

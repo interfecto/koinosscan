@@ -1,0 +1,16 @@
+{
+  "name": "koindx-gt-adapter",
+  "version": "0.1.0",
+  "description": "GeckoTerminal Integration API (v0.1) adapter for KoinDX pairs on the Koinos blockchain",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test test/*.test.js",
+    "conformance": "node scripts/conformance.mjs"
+  }
+}
